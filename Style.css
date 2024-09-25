@@ -1,0 +1,35 @@
+.top{
+    background-image: url(images/aidan-hancock-8RU4OuA6Yug-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100cm;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease; /* add a smooth transition effect */
+  }
+  
+  nav ul li a:hover {
+    color: #666; /* change the text color on hover */
+  }
+  
+  /* Add a smooth scrolling effect */
+  nav ul li a[href*="#"]:not([href="#"]) {
+    scroll-behavior: smooth;
+  }
