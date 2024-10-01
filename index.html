@@ -3,29 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Review</title>
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:600|Nunito+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+
 <header class="header" id="header">
 	<div class="container">
-		<div class="headerinner">
-			<div class="header-logo">
-				<a href="#"><img class="header-img" src="img/logos/brand-logo.png" alt=""></a>
+		<div class="header__inner">
+			<div class="header__logo">
+				<a href="#"><img class="header__img" src="img/logos/brand-logo.png" alt=""></a>
 			</div>
 			<nav class="nav" id="nav">
-				<a class="nav-link" href="#" data-scroll="#intro">Home</a>
-				<a class="nav-link" href="#" data-scroll="#about">About</a>
-				<a class="nav-link" href="#" data-scroll="#work">Work</a>
-				<a class="nav-link" href="#" data-scroll="#process">Process</a>
-				<a class="nav-link" href="#" data-scroll="#services">Services</a>
-				<a class="nav-link" href="#" data-scroll="#reviews">Testimonials</a>
-				<a class="nav-link" href="#" data-scroll="#contact">Contact</a>
+				<a class="nav__link" href="#header" >Home</a>
+				<a class="nav__link" href="#about" >About</a>
+				<a class="nav__link" href="#" >Work</a>
+				<a class="nav__link" href="#" >Process</a>
+				<a class="nav__link" href="#" >Services</a>
+				<a class="nav__link" href="#" >Testimonials</a>
+				<a class="nav__link" href="#" >Contact</a>
 			</nav>
 			<button class="burger" type="button" id="navToggle">
-				<span class="burger-item"></span>
+				<span class="burger__item"></span>
 			</button>
 		</div>
 	</div>
@@ -34,12 +34,13 @@
 
 <div class="intro" id="intro">
 	<div class="container">
-		<div class="intro-inner">
-			<div class="intro-content">
-				<h1 class="intro-title title">We Design and Develop</h1>
-				<h2 class="intro-subtitle subtitle">We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</h2>
-				<button type="button" class="btn">Contact Us</button>
+		<div class="intro__inner">
+			<div class="intro__content">
+				<h1 class="intro__title title">We Design and Develop</h1>
+				<h2 class="intro__subtitle subtitle">We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</h2>
+				<a class="btn btn__intro" href="#">Contact us</a>
 			</div>
+			
 		</div>
 	</div>
 </div>
@@ -47,12 +48,12 @@
 
 <div class="about" id="about">
 	<div class="container">
-		<div class="about-inner">
-			<div class="about-content">
-				<h1 class="about-title title">About Us</h1>
-				<h2 class="about-subtitle subtitle">Divide have don't man wherein air fourth. Own itself make have night won't make. A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.</h2>
-				<div class="about-signature">
-					<img class="about-img" src="img/signature.png" alt="">
+		<div class="about__inner">
+			<div class="about__content">
+				<h1 class="about__title title">About Us</h1>
+				<h2 class="about__subtitle subtitle">Divide have don't man wherein air fourth. Own itself make have night won't make. A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.</h2>
+				<div class="about__signature">
+					<img class="about__img" src="img/signature.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -62,24 +63,24 @@
 
 <div class="skill">
 	<div class="container">
-		<div class="skill-inner">
-			<div class="skill-content">
-				<h1 class="skill-title">Professional Skills</h1>
-				<div class="skill-item">
-					<div class="skill-item-title">UI/UX Design <span class="skill-percent">75%</span></div>
-					<div class="skill-line line-75"></div>
+		<div class="skill__inner">
+			<div class="skill__content">
+				<h1 class="skill__title">Professional Skills</h1>
+				<div class="skill__item">
+					<div class="skill__item__title">UI/UX Design <span class="skill__percent">75%</span></div>
+					<div class="skill__line line_75"></div>
 				</div>
-				 <div class="skill-item">
-					<div class="skill-item-title">Web Development <span class="skill-percent">90%</span></div>
-					<div class="skill-line line_90"></div>
+				 <div class="skill__item">
+					<div class="skill__item__title">Web Development <span class="skill__percent">90%</span></div>
+					<div class="skill__line line_90"></div>
 				</div>
-				<div class="skill-item">
-					<div class="skill-item-title">Marketing <span class="skill-percent">65%</span></div>
-					<div class="skill-line line_65"></div>
+				<div class="skill__item">
+					<div class="skill__item__title">Marketing <span class="skill__percent">65%</span></div>
+					<div class="skill__line line_65"></div>
 				</div>
 			</div>
-			<div class="skill-photo">
-				<div class="skill-img"></div>
+			<div class="skill__photo">
+				<div class="skill__img"></div>
 			</div>
 		</div>
 	</div>
@@ -88,44 +89,44 @@
 
 <div class="numbers">
 	<div class="container">
-		<div class="num-inner">
-			<div class="num-item">
-				<div class="num-icon">
-					<img class="num-img" src="img/icons/icon-01.png" alt="">
+		<div class="num__inner">
+			<div class="num__item">
+				<div class="num__icon">
+					<img class="num__img" src="img/icons/icon-01.png" alt="">
 				</div>
-				<div class="num-text">
-					<div class="num-title">548</div>
-					<div class="num-subtitle">PROJECTS COMPLETED</div>
-				</div>
-			</div>
-
-			<div class="num-item">
-				<div class="num-icon">
-					<img class="num-img" src="img/icons/icon-02.png" alt="">
-				</div>
-				<div class="num-text">
-					<div class="num-title">1465</div>
-					<div class="num-subtitle">WORKING HOURS</div>
+				<div class="num__text">
+					<div class="num__title">548</div>
+					<div class="num__subtitle">PROJECTS COMPLETED</div>
 				</div>
 			</div>
 
-			<div class="num-item">
-				<div class="num-icon">
-					<img class="num-img" src="img/icons/icon-03.png" alt="">
+			<div class="num__item">
+				<div class="num__icon">
+					<img class="num__img" src="img/icons/icon-02.png" alt="">
 				</div>
-				<div class="num-text">
-					<div class="num-title">612</div>
-					<div class="num-subtitle">POSITIVE FEEDBACKS</div>
+				<div class="num__text">
+					<div class="num__title">1465</div>
+					<div class="num__subtitle">WORKING HOURS</div>
 				</div>
 			</div>
 
-			<div class="num-item">
-				<div class="num-icon">
-					<img class="num-img" src="img/icons/icon-04.png" alt="">
+			<div class="num__item">
+				<div class="num__icon">
+					<img class="num__img" src="img/icons/icon-03.png" alt="">
 				</div>
-				<div class="num-text">
-					<div class="num-title">735</div>
-					<div class="num-subtitle">HAPPY CLIENTS</div>
+				<div class="num__text">
+					<div class="num__title">612</div>
+					<div class="num__subtitle">POSITIVE FEEDBACKS</div>
+				</div>
+			</div>
+
+			<div class="num__item">
+				<div class="num__icon">
+					<img class="num__img" src="img/icons/icon-04.png" alt="">
+				</div>
+				<div class="num__text">
+					<div class="num__title">735</div>
+					<div class="num__subtitle">HAPPY CLIENTS</div>
 				</div>
 			</div>
 		</div>
@@ -134,102 +135,102 @@
 
 
 <div class="work" id="work">
-	<div class="work-item">
-		<img class="work-photo" src="img/Package Design Lemon Tea - fabian krotzer Frame.png" alt="">
-		<div class="work-content">
-			<img class="work-icon" src="img/logos/hover-icon.png" alt="">
+	<div class="work__item">
+		<img class="work__photo" src="img/Package Design Lemon Tea - fabian krotzer Frame.png" alt="">
+		<div class="work__content">
+			<img class="work__icon" src="img/logos/hover-icon.png" alt="">
 		</div>
 	</div>
-	<div class="work-item">
-		<img class="work-photo" src="img/Package Design Vanilla Powder - fabian krotzer Frame.png" alt="">
-		<div class="work-content">
-			<img class="work-icon" src="img/logos/hover-icon.png" alt="">
+	<div class="work__item">
+		<img class="work__photo" src="img/Package Design Vanilla Powder - fabian krotzer Frame.png" alt="">
+		<div class="work__content">
+			<img class="work__icon" src="img/logos/hover-icon.png" alt="">
 		</div>
 	</div>
-	<div class="work-item">
-		<img class="work-photo" src="img/Package Design Coconut - fabian krotzer Frame.png" alt="">
-		<div class="work-content">
-			<image class="work-icon" src="img/logos/hover-icon.png" alt="">
+	<div class="work__item">
+		<img class="work__photo" src="img/Package Design Coconut - fabian krotzer Frame.png" alt="">
+		<div class="work__content">
+			<img class="work__icon" src="img/logos/hover-icon.png" alt="">
 		</div>
 	</div>
-	<div class="work-item">
-		<img class="work-photo" src="img/Package Design Komaso - fabian krotzer Frame.png" alt="">
-		<div class="work-content">
-			<img class="work-icon" src="img/logos/hover-icon.png" alt="">
+	<div class="work__item">
+		<img class="work__photo" src="img/Package Design Komaso - fabian krotzer Frame.png" alt="">
+		<div class="work__content">
+			<img class="work__icon" src="img/logos/hover-icon.png" alt="">
 		</div>
 	</div>
-	<div class="work-item">
-		<img class="work-photo" src="img/Package Design Spices - fabian krotzer Frame.png" alt="">
-		<div class="work-content">
-			<img class="work-icon" src="img/logos/hover-icon.png" alt="">
+	<div class="work__item">
+		<img class="work__photo" src="img/Package Design Spices - fabian krotzer Frame.png" alt="">
+		<div class="work__content">
+			<img class="work__icon" src="img/logos/hover-icon.png" alt="">
 		</div>
 	</div>
-	<div class="work-item">
-		<img class="work-photo" src="img/Package Design Salad - fabian krotzer Frame.png" alt="">
-		<div class="work-content">
-			<img class="work-icon" src="img/logos/hover-icon.png" alt="">
+	<div class="work__item">
+		<img class="work__photo" src="img/Package Design Salad - fabian krotzer Frame.png" alt="">
+		<div class="work__content">
+			<img class="work__icon" src="img/logos/hover-icon.png" alt="">
 		</div>
 	</div>
-	<div class="work-item">
-		<img class="work-photo" src="img/Package Design Olive Oil - fabian krotzer Frame.png" alt="">
-		<div class="work-content">
-			<img class="work-icon" src="img/logos/hover-icon.png" alt="">
+	<div class="work__item">
+		<img class="work__photo" src="img/Package Design Olive Oil - fabian krotzer Frame.png" alt="">
+		<div class="work__content">
+			<img class="work__icon" src="img/logos/hover-icon.png" alt="">
 		</div>
 	</div>
-	<div class="work-item">
-		<img class="work-photo" src="img/Package Design Seaweed - fabian krotzer Frame.png" alt="">
-		<div class="work-content">
-			<img class="work-icon" src="img/logos/hover-icon.png" alt="">
+	<div class="work__item">
+		<img class="work__photo" src="img/Package Design Seaweed - fabian krotzer Frame.png" alt="">
+		<div class="work__content">
+			<img class="work__icon" src="img/logos/hover-icon.png" alt="">
 		</div>
 	</div>
 	
-<div class="process-image">
+<div class="process__image">
 				
 			
 	
 
 <div class="services" id="services">
 	<div class="container">
-		<div class="services-inner">
-			<div class="services-item">
-				<img class="services-icon" src="img/icons/icon-05.png" alt="">
-				<div class="services-title">UI/UX Design</div>
-				<div class="services-text">Be set fourth land god darkness make it wherein own</div>
+		<div class="services__inner">
+			<div class="services__item">
+				<img class="services__icon" src="img/icons/icon-05.png" alt="">
+				<div class="services__title">UI/UX Design</div>
+				<div class="services__text">Be set fourth land god darkness make it wherein own</div>
 			</div>
-			<div class="services-item">
-				<img class="services-icon" src="img/icons/icon-06.png" alt="">
-				<div class="services-title">web development</div>
-				<div class="services-text">A she'd them bring void moving third she'd kind fill</div>
+			<div class="services__item">
+				<img class="services__icon" src="img/icons/icon-06.png" alt="">
+				<div class="services__title">web development</div>
+				<div class="services__text">A she'd them bring void moving third she'd kind fill</div>
 			</div>
-			<div class="services-item">
-				<img class="services-icon" src="img/icons/icon-07.png" alt="">
-				<div class="services-title">app / mobile</div>
-				<div class="services-text">Be set fourth land god darkness make it wherein own</div>
+			<div class="services__item">
+				<img class="services__icon" src="img/icons/icon-07.png" alt="">
+				<div class="services__title">app / mobile</div>
+				<div class="services__text">Be set fourth land god darkness make it wherein own</div>
 			</div>
-			<div class="services-item">
-				<img class="services-icon" src="img/icons/icon-08.png" alt="">
-				<div class="services-title">game design</div>
-				<div class="services-text">Morning his saying moveth it multiply appear life be</div>
+			<div class="services__item">
+				<img class="services__icon" src="img/icons/icon-08.png" alt="">
+				<div class="services__title">game design</div>
+				<div class="services__text">Morning his saying moveth it multiply appear life be</div>
 			</div>
-			<div class="services-item">
-				<img class="services-icon" src="img/icons/icon-09.png" alt="">
-				<div class="services-title">SEO / marketing</div>
-				<div class="services-text">Give won't after land fill creeping meat you, may</div>
+			<div class="services__item">
+				<img class="services__icon" src="img/icons/icon-09.png" alt="">
+				<div class="services__title">SEO / marketing</div>
+				<div class="services__text">Give won't after land fill creeping meat you, may</div>
 			</div>
-			<div class="services-item">
-				<img class="services-icon" src="img/icons/icon-10.png" alt="">
-				<div class="services-title">photography</div>
-				<div class="services-text">Creepeth one seas cattle grass give moving saw give</div>
+			<div class="services__item">
+				<img class="services__icon" src="img/icons/icon-10.png" alt="">
+				<div class="services__title">photography</div>
+				<div class="services__text">Creepeth one seas cattle grass give moving saw give</div>
 			</div>
-			<div class="services-item">
-				<img class="services-icon" src="img/icons/icon-11.png" alt="">
-				<div class="services-title">graphic design</div>
-				<div class="services-text">Open, great whales air rule for, fourth life whales</div>
+			<div class="services__item">
+				<img class="services__icon" src="img/icons/icon-11.png" alt="">
+				<div class="services__title">graphic design</div>
+				<div class="services__text">Open, great whales air rule for, fourth life whales</div>
 			</div>
-			<div class="services-item">
-				<img class="services-icon" src="img/icons/icon-12.png" alt="">
-				<div class="services-title">illustrations</div>
-				<div class="services-text">Whales likeness hath, man kind for them air two won't</div>
+			<div class="services__item">
+				<img class="services__icon" src="img/icons/icon-12.png" alt="">
+				<div class="services__title">illustrations</div>
+				<div class="services__text">Whales likeness hath, man kind for them air two won't</div>
 			</div>
 		</div>
 	</div>
@@ -237,12 +238,12 @@
 
 <div class="reviews" id="reviews">
 	<div class="container">
-		<div class="reviews-content" id="reviewsSlider">
-			<div class="reviews-item">
-				<h1 class="reviews-title">
+		<div class="reviews__content" id="reviewsSlider">
+			<div class="reviews__item">
+				<h1 class="reviews__title">
 					“ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap. ”
 				</h1>
-				<div class="reviews-author">Michael Hopkins</div>
+				<div class="reviews__author">Michael Hopkins</div>
 			</div>
 		</div>
 	</div>
@@ -251,21 +252,21 @@
 
 <div class="clients">
 	<div class="container">
-		<div class="clients-inner">
-			<div class="clients-item">
-				<img class="clients-img" src="img/logos/logo-01.png" alt="">
+		<div class="clients__inner">
+			<div class="clients__item">
+				<img class="clients__img" src="img/logos/logo-01.png" alt="">
 			</div>
-			<div class="clients-item">
-				<img class="clients-img" src="img/logos/logo-02.png" alt="">
+			<div class="clients__item">
+				<img class="clients__img" src="img/logos/logo-02.png" alt="">
 			</div>
-			<div class="clients-item">
-				<img class="clients-img" src="img/logos/logo-03.png" alt="">
+			<div class="clients__item">
+				<img class="clients__img" src="img/logos/logo-03.png" alt="">
 			</div>
-			<div class="clients-item">
-				<img class="clients-img" src="img/logos/logo-04.png" alt="">
+			<div class="clients__item">
+				<img class="clients__img" src="img/logos/logo-04.png" alt="">
 			</div>
-			<div class="clients-item">
-				<img class="clients-img" src="img/logos/logo-01.png" alt="">
+			<div class="clients__item">
+				<img class="clients__img" src="img/logos/logo-01.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -274,24 +275,24 @@
 
 <div class="project" id="contact">
 	<div class="container">
-		<div class="project-inner">
-			<div class="about-content project-content">
-				<h1 class="about-title title">Need a Project?</h1>
-				<h2 class="about-subtitle subtitle">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</h2>
+		<div class="project__inner">
+			<div class="about__content project__content">
+				<h1 class="about__title title">Need a Project?</h1>
+				<h2 class="about__subtitle subtitle">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</h2>
 			</div>
 
 			<form class="form" action="/">
-				<div class="form-item name_email">
+				<div class="form__item name_email">
 					<input class="input" type="text" name="name" placeholder="Yor Name">
 					<input class="input" type="text" name="email" placeholder="Your Email">
 				</div>
-				<div class="form-item title">
+				<div class="form__item title">
 					<input class="input" type="text" name="title" placeholder="Your Title">
 				</div>
-				<div class="form-item comment">
+				<div class="form__item comment">
 					<textarea class="textarea" name="comment" placeholder="Your Comment"></textarea>
 				</div>
-				<button class="btn btn-form" type="submit">Send Message</button>
+				<button class="btn btn__form" type="submit">Send Message</button>
 			</form>
 		</div>
 	</div>
@@ -301,44 +302,48 @@
 
 <footer class="footer">
 	<div class="container">
-		<div class="footer-inner">
-			<div class="footer-item footer-info">
-				<div class="footer-logo">Piroll Design, Inc.</div>
-				<div class="footer-copyright">
-					<span class="footer-copy_item">© 2017 Piroll. All right Reserved.</span>
-					<span class="footer-copy_item">Designed by Piroll.</span>
+		<div class="footer__inner">
+			<div class="footer__item footer__info">
+				<div class="footer__logo">Piroll Design, Inc.</div>
+				<div class="footer__copyright">
+					<span class="footer__copy_item">© 2017 Piroll. All right Reserved.</span>
+					<span class="footer__copy_item">Designed by Piroll.</span>
 				</div>
 			</div>
 
-			<div class="footer-item footer-contacts">
-				<a class="footer-link" href="#">hello@pirolltheme.com</a>
-				<a class="footer-link" href="#">+44 987 065 908</a>
+			<div class="footer__item footer__contacts">
+				<a class="footer__link" href="#">hello@pirolltheme.com</a>
+				<a class="footer__link" href="#">+44 987 065 908</a>
 			</div>
 
-			<div class="footer-item footer-nav">
-				<div class="footer-menu">
-					<a class="footer-link" href="#">Projects</a>
-					<a class="footer-link" href="#">About</a>
-					<a class="footer-link" href="#">Services</a>
-					<a class="footer-link" href="#">Carreer</a>
+			<div class="footer__item footer__nav">
+				<div class="footer__menu">
+					<a class="footer__link" href="#">Projects</a>
+					<a class="footer__link" href="#">About</a>
+					<a class="footer__link" href="#">Services</a>
+					<a class="footer__link" href="#">Carreer</a>
 				</div>
-				<div class="footer-menu">
-					<a class="footer-link" href="#">News</a>
-					<a class="footer-link" href="#">Events</a>
-					<a class="footer-link" href="#">Contact</a>
-					<a class="footer-link" href="#">Legals</a>
+				<div class="footer__menu">
+					<a class="footer__link" href="#">News</a>
+					<a class="footer__link" href="#">Events</a>
+					<a class="footer__link" href="#">Contact</a>
+					<a class="footer__link" href="#">Legals</a>
 				</div>
 			</div>
 
-			<div class="footer-item footer-socials">
-				<a class="footer-link" href="#">Facebook</a>
-				<a class="footer-link" href="#">Twitter</a>
-				<a class="footer-link" href="#">Instagram</a>
-				<a class="footer-link" href="#">Dribble</a>
+			<div class="footer__item footer__socials">
+				<a class="footer__link" href="#">Facebook</a>
+				<a class="footer__link" href="#">Twitter</a>
+				<a class="footer__link" href="#">Instagram</a>
+				<a class="footer__link" href="#">Dribble</a>
 			</div>
 		</div>
 	</div>
 </footer>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./app.js"></script>
 </body>
 </html>
